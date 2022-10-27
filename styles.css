@@ -1,0 +1,38 @@
+body {
+    display: block;
+    background-color: blueviolet;
+    /*background-image: url("./assets/index.jpg");*/
+}
+.heading-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.anchor-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.anch {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius: 8px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none; /*To remove underlining of link*/
+}
+
+.pic-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+
+    border: 3px solid blue;
+    border-radius: 30px;
+
+
+}
